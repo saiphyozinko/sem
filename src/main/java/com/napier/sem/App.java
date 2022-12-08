@@ -4,6 +4,8 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
+// Connect to MongoDB
+MongoClient mongoClient = new MongoClient("mongo-dbserver");
 
 public class App
 {
